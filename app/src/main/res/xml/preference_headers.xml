@@ -1,0 +1,7 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:fragment="com.stander.myleasemiles.SettingsActivity$Prefs1Fragment"
+            android:icon="@mipmap/ic_build_white_24dp"
+            android:title="Lease Settings"
+            android:summary="Details about your lease"/>
+</preference-headers>

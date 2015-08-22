@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+    <PreferenceCategory
+        android:title="Lease Settings"
+        android:key="pref_key_lease">
+        <com.stander.myleasemiles.DatePickerPreference
+            android:key="date"
+            android:title="Lease Start Date"/>
+        <com.stander.myleasemiles.NumberPickerPreference
+            android:key="months"
+            android:title="Term of Lease (months)" />
+        <com.stander.myleasemiles.NumberPickerPreference
+            android:key="miles"
+            android:title="Mile allowance (thousands)" />
+    </PreferenceCategory>
+</PreferenceScreen>
